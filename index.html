@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <head>
+        <title>Neumorphic Social Media Icons</title>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+    <body>
+        <div class="icons second">
+            <li>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>            
+            <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+        </div>
+    <script>
+        $('.second li').click(function(){
+           $(this).toggleClass("shadow-2").siblings(); 
+           $(this).toggleClass("fill-color").siblings(); 
+        }); 
+    </script>
+    </body>
+</html>
+
+
+
+
